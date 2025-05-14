@@ -1,0 +1,17 @@
+
+
+
+
+.product__card {
+    width: 360px;
+    margin: 100px auto 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product__card-img {
+    width: 100%;
+}
+
+.producard__content {
+    padding: 15px 25px;
+}
