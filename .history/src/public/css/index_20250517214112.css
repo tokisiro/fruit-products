@@ -1,0 +1,139 @@
+.header {
+    background: transparent;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.header__logo {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+main {
+    max-width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+.change-form {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+change-form__content
+
+.change-form__link{
+    text-align: left;
+}
+
+.register-form__content-title,
+.register-form__name-item,
+.register-form__price-item,
+.register-form__image-item,
+.register-form__season-item,
+.register-form__explanation-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.register-form__name-item--required,
+.register-form__price-item--required,
+.register-form__image-item--required,
+.register-form__season-item--required,
+.register-form__explanation-item--required {
+    color: white;
+    background-color: red;
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.register-form__image-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#imagePreview {
+    width: 200px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.register-form__season-item--multiple {
+    color: red;
+    font-size: 10px;
+}
+
+.register-form__season-content--input {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.register-form__season-content--input-item {
+    margin-right: 20px;
+    color: #444444;
+    font-size: 13px;
+}
+
+.register-form__name-input,
+.register-form__price-input {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.register-form__button {
+    margin: 20px auto;
+}
+
+.register-form__button-submit {
+    background-color: rgba(255, 166, 0, 0.624);
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.register-form__button-return {
+    background-color: darkgrey;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px 30px;
+    font-size: 15px;
+}
+
+.register-form__explanation-content-input {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+.register-form__name-error,
+.register-form__price-error,
+.register-form__season-content--error,
+.register-form__image-content--error,
+.register-form__explanation-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+}

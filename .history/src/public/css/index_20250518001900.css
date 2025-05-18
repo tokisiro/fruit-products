@@ -1,0 +1,141 @@
+.header {
+    background: transparent;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.header__logo {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+main {
+    max-width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+.change-header {
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.change-form__content{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.change-form__content-image{
+    flex: 1;
+}
+
+.change-form__contents-info {
+    flex: 2;
+    /* 商品情報部分を広げたい場合 */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* 各要素間のスペース */ }
+
+.change-form__content-bottom{
+    margin-top: 30px;
+        /* 画像と情報の間にスペース */
+        display: flex;
+        flex-direction: column;
+        /*縦並びに */
+        gap: 20px;
+        align-items: center;
+        /* 中央揃え */
+        text-align: center;
+}
+
+.change-form__content-bottom--button{
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#imagePreview {
+    width: 500px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+.register-form__season-item--multiple {
+    color: red;
+    font-size: 10px;
+}
+
+.register-form__season-content--input {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.register-form__season-content--input-item {
+    margin-right: 20px;
+    color: #444444;
+    font-size: 13px;
+}
+
+.register-form__name-input,
+.register-form__price-input {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.register-form__button {
+    margin: 20px auto;
+}
+
+.register-form__button-submit {
+    background-color: rgba(255, 166, 0, 0.624);
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.register-form__button-return {
+    background-color: darkgrey;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px 30px;
+    font-size: 15px;
+}
+
+.register-form__explanation-content-input {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+.register-form__name-error,
+.register-form__price-error,
+.register-form__season-content--error,
+.register-form__image-content--error,
+.register-form__explanation-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+}

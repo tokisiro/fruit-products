@@ -1,0 +1,20 @@
+.header {
+    background: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.header__logo {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+}
+.change-form__text{
+    
+}

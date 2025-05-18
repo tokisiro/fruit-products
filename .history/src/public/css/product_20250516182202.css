@@ -1,0 +1,67 @@
+.header {
+    background: whitesmoke;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px; 
+    font-family: cursive;
+    }
+
+
+.product{
+    max-width: 1230px;
+    position: absolute;
+}
+
+.product__content{
+    position: relative;
+    top: 50px;
+    left
+}
+
+.product__card {
+    width: 200px;
+    margin: 100px auto 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+        /* 必要に応じて折返しも許容 */
+    gap: 10px;
+    
+}
+
+.product__card-img img{
+    width: 100%;
+    flex: 1 1 calc(25% - 10px);
+        /* 4列表示、調整可能 */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.product__card-content {
+    padding: 15px 25px;
+}
+
+.product__card-content-name {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.product__card-content-price {
+    font-size: 12px;
+    display: inline-block;
+}
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,54 @@
+.header {
+    background: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.header__logo {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+}
+
+.register-form{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.register-form__name-item,
+.register-form__price-item,
+.register-form__image-item,
+.register-form__explanation-item{
+    display: inline-block;
+    width: auto;
+    text-align: left;
+        margin-bottom: 10px;
+}
+
+.register-form__name-item--required,
+.register-form__price-item--required,
+.register-form__image-item--required,
+.register-form__season-item--required,
+.register-form__explanation-item--required
+{
+    color: white;
+    background-color: red;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.register-form__name-input,
+.register-form__price-input,
+.register-form__explanation-content-input{
+    width: 50%;
+}
+
+
