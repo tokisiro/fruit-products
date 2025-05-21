@@ -1,0 +1,39 @@
+.Pagination {
+    display: flex;
+    align-items: center;
+}
+
+.Pagination-Item-Link {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: #fff;
+    border: solid 2px orange;
+    font-size: 14px;
+    color: orange;
+    font-weight: bold;
+    transition: all 0.15s linear;
+}
+
+.Pagination-Item-Link-Icon {
+    width: 20px;
+}
+
+.Pagination-Item-Link.isActive {
+    background: orange;
+    color: #fff;
+    pointer-events: none;
+}
+
+.Pagination-Item-Link:not(.isActive):hover {
+    background: orange;
+    color: #fff;
+}
+
+.Pagination>*+* {
+     }

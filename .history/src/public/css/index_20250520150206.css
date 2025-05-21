@@ -1,0 +1,161 @@
+.header {
+    background: white;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+.header__logo {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+    p
+}
+
+main {
+    max-width: 100%;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+.change-header {
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.change-header__text-item{
+    text-decoration: none;
+    color: rgb(0, 217, 255);
+}
+
+.change-form__content{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+
+.change-form__content-image-card{
+    flex: 1;
+}
+
+.change-form__contents-info {
+    /* 商品情報部分を広げたい場合 */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.change-form__content-bottom{
+    margin-top: 30px;
+        /* 画像と情報の間にスペース */
+        display: flex;
+        flex-direction: column;
+        /*縦並びに */
+        gap: 20px;
+}
+
+.change-form__content-bottom--button{
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#imagePreview {
+    width: 500px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+.change-form__content-info--season-select {
+    margin-right: 20px;
+    color: #444444;
+    font-size: 13px;
+}
+
+.change-form__content-info--name,
+.change-form__content-info--price,
+.change-form__content-info--season{
+    text-align: left;
+}
+
+.change-form__content-info--name-item,
+.change-form__content-info--price-item,
+.change-form__content-info--season-item{
+    padding: 50px;
+}
+
+.change-form__content-info--name-input,
+.change-form__content-info--price-input{
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.change-form__content-info--season-select{
+    display: flex;
+        justify-content: space-around;
+}
+
+.change-form__content-bottom--explanation{
+    text-align: left;
+    width: 100%;
+
+}
+
+.change-form__content-bottom--explanation-text {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+}
+
+
+.change-form__content-button--update {
+    background-color: rgba(255, 166, 0, 0.624);
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.change-form__content-button--submit {
+    background-color: darkgrey;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px 80px;
+    font-size: 15px;
+}
+
+.change-form__button{
+    text-align: right;
+}
+
+.change-form__button-delete--submit{
+    border: none;
+}
+
+.change-form__content-image-error,
+.change-form__content-info--name-error,
+.change-form__content-info--price--error,
+.change-form__content-info--season-error,
+.change-form__content--explanation-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: left;
+}
+
